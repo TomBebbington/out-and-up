@@ -2,3 +2,4 @@
 {"contributors":[],"silentsave":false,"ts":1381409743120,"patch":[[{"diffs":[[0,"title>\r\n"],[1,"\t\t<link rel=”stylesheet” type=”text/css” href=“http://fonts.googleapis.com/css?family=Gudea:400,400italic,700|Patua+One” />\r\n"],[0,"\t\t<link "]],"start1":87,"start2":87,"length1":16,"length2":141}]],"length":852,"saved":false}
 {"ts":1381410056014,"patch":[[{"diffs":[[0,"<div>FAQ"],[1,"s"],[0,"</div></"]],"start1":596,"start2":596,"length1":16,"length2":17}]],"length":853,"saved":false}
 {"ts":1381410611597,"patch":[[{"diffs":[[0,"title>\r\n"],[1,"\t\t<link rel=\"shortcut icon\" href=\"favicon.ico\" type=\"image/x-icon\"/>\r\n"],[0,"\t\t<link "]],"start1":87,"start2":87,"length1":16,"length2":86}]],"length":923,"saved":false}
+{"ts":1381413965235,"patch":[[{"diffs":[[0,"v></a>\r\n"],[1,"\t\t\t<a href=\"book.html\"><div>Book now!</div></a>\r\n"],[0,"\t\t</nav>"]],"start1":735,"start2":735,"length1":16,"length2":65}]],"length":972,"saved":false}
