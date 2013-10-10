@@ -36,15 +36,16 @@ header {
 	font-size: 2.4em;
 	height: 1.2em;
 	padding: 7px;
-	text-shadow: black 0px 0px 4px;
+	text-shadow: black 0 0 4px;
 	z-index: 10;
 	color: white;
 	display: flex;
 	transition: text-shadow 0.3s;
 	cursor: default;
+	overflow: hidden;
 }
 header:hover {
-	text-shadow: black 0px 0px 10px;
+	text-shadow: black 0 0 10;
 }
 footer:after {
 	display: inline-flex;
@@ -59,8 +60,8 @@ footer:after {
 	padding-left: 2em;
 	padding-right: 2em;
 	border-radius: 8px;
-	border-top-left-radius: 0px;
-	border-top-right-radius: 0px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
 }
 nav {
 	flex-direction: row;
@@ -76,27 +77,28 @@ nav a div {
 	padding-left: 1em;
 	padding-right: 1em;
 	font-weight: bold;
-	text-shadow: gray 0px 0px 2px;
-	box-shadow: black 0px 0px 3px;
+	text-shadow: gray 0 0 2px;
+	box-shadow: black 0 0 3px;
 	text-align: center;
 	display: inline-flex;
 	margin-left: 1em;
 	transition: transform 0.2s;
 }
 nav a div:hover {
-    transform: scale(1) rotate(0deg) translate(0px, 0px) skew(-10deg, 0deg);
+    transform: scale(1) rotate(0deg) translate(0, 0) skew(-10deg, 0deg);
 }
 section {
 	z-index: 0;
 	padding: 2em;
 	margin: 0;
 	background-color: #613A18;
+	background: linear-gradient(to right, #627d4d 0%,#1f3b08 100%); /* W3C */
 	border-top: 3px solid green;
 	color: white;
 	flex: 1;
 	justify-content: center;
 	border-radius: 8px;
-	border-bottom-left-radius: 0px;
+	border-bottom-left-radius: 0;
 }
 section a {
 	color: white;
@@ -105,10 +107,10 @@ section a {
 	transition: text-shadow 0.4s;
 }
 section a:hover {
-	text-shadow: white 0px 0px 5px;
+	text-shadow: white 0 0 5px;
 }
 section img:hover {
-	box-shadow: white 0px 0px 9px;
+	box-shadow: white 0 0 9px;
 }
 section img  {
 	margin-left: 2em;
@@ -118,22 +120,14 @@ section img  {
 	border: 2px solid white;
 	float: right;
 	border-radius: 0.3em;
-	box-shadow: white 0px 0px 5px;
+	box-shadow: white 0 0 5px;
 	transition: box-shadow 0.5s;
 }
-section video {
+section .video {
 	border: 2px solid white;
 	float: left;
 	border-radius: 0.3em;
-	box-shadow: white 0px 0px 5px;
-	height: auto;
-	transition: width 1.3s;
-	max-width: 100%;
-}
-section video:hover {
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
+	box-shadow: white 0 0 5px;
 }
 
 h1 {
