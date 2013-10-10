@@ -3,8 +3,7 @@ function makeTree() {
 	t.src = "http://openclipart.org/image/60px/svg_to_png/1936/harmonic_Tree.png";
 	t.className = "tree";
 	t.style.right = (Math.random() * (window.innerWidth - 50)) + "px";
-	var degs = (4 * Math.random() - 2)+"deg";
-	console.log(degs);
+	var degs = (6 * Math.random() - 3)+"deg";
 	t.style.transform = "rotate("+degs+")";
 	document.body.insertBefore(t, document.getElementById("main"));
 }
