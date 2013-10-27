@@ -1,6 +1,3 @@
-html, body, header:before, footer:after, nav, div {
-	display: flex;
-}
 section {
 	display: block;
 }
