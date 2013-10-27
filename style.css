@@ -12,7 +12,8 @@ section {
 	z-index: -1;
 }
 .cafe-item {
-    display: block;
+    position: relative;
+    display: inline-block;
     background-size: auto 250px;
     width: 400px;
     height: 300px;
@@ -22,10 +23,19 @@ section {
     background-origin: content-box;
     background-repeat: no-repeat;
     background-color: white;
+    margin: 5px;
 }
 .cafe-item p {
-    display: inline;
+    position: absolute;
+    display: block;
     text-shadow: #fff 0 0 1px;
+    bottom : 0;
+    text-align: center;
+    left: 0;
+    width: 98%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
 }
 .cafe-item header {
     display: inline;
@@ -34,13 +44,16 @@ section {
     text-shadow: #eee 0 0 4px;
 }
 .cafe-item var {
-    position: relative;
+    display: block;
+    float: right;
+    width: 50%;
+    height: 1em;
+    margin-right: 1em;
+    text-align: right;
     color: black;
     font-family: monospace;
     font-size: 1.4em;
     font-weight: bold;
-    left: 1em;
-    top: calc(250px - 1.4em);
 }
 #share {
     position: absolute;
@@ -137,7 +150,7 @@ section {
 	justify-content: center;
 	border-radius: 8px;
 	border-bottom-left-radius: 0;
-	display: flex;
+	display: block;
 }
 section p {
     text-indent: 1.6em;
