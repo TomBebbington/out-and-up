@@ -3,6 +3,7 @@ html, body, header:before, footer:after, nav, div {
 }
 section {
 	display: block;
+	min-height: 60%;
 }
 .tree {
 	position: absolute;

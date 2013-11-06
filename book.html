@@ -18,7 +18,17 @@
 			<a href="book.html"><div>Book now!</div></a>
 		</nav>
 		<section id="main">
-		    <p>Book now!</p>
+		    <form>
+				<dl>
+					<dt>Name</dt>
+					<dd><input name="name" id="name" type="text" pattern="[^ ]+ [^ ]+" placeholder="John Smith" required/></dd>
+					<dt>Email</dt>
+					<dd><input name="email" id="email" type="email" placeholder="john.smith.19@gmail.com" required/></dd>
+					<dt>Message</dt>
+					<dd><textarea name="message" id="message" required></textarea></dd>
+					<dd><img src="images/paypal-button.png" style="background-color: white;float:left;"></img></dd>
+				</dl>
+			</form>
 		</section>
 		<footer />
 	</body>
